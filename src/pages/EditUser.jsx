@@ -43,7 +43,7 @@ function EditUser() {
   };
   const getUser = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/api/v1/user/${id}`);
+      const response = await fetch(`https://crud-backend-t6qd.onrender.com/api/v1/user/${id}`);
       const data = await response.json();
       setNombre(data.user.name);
       setCorreo(data.user.email);
