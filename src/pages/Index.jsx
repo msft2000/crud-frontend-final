@@ -34,7 +34,7 @@ function Index() {
       <Navbar />
       <div className="container">
         <div className="row">
-          <div className="col-8 offset-2">
+          <div className="col-10 offset-1">
           <table className="table table-striped table-hover ">
             <thead>
               <tr>
